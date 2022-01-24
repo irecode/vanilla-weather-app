@@ -1,0 +1,92 @@
+h1 {
+  font-size: 37px;
+  font-weight: 400;
+  padding: 15px 0 0px 0;
+  color: rgb(161, 204, 245);
+  margin-bottom: 0;
+}
+
+body {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 19px;
+  color: rgb(255, 255, 255);
+}
+
+li:first-letter {
+  text-transform: capitalize;
+}
+
+.date {
+  font-size: 22px;
+  font-weight: 100;
+}
+
+.weather-temperature strong {
+  font-size: 60px;
+  font-weight: bolder;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.units {
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.weather-app-wrapper {
+  max-width: 650px;
+  margin: 50px auto;
+}
+.weather-app {
+  border: 1px solid darkgrey;
+  padding: 40px;
+  border-radius: 5px;
+  background-color: rgb(77, 117, 165);
+}
+
+.btn-primary {
+  background-color: #0f2e57;
+  border: 1px solid #0f2e57;
+}
+
+.btn-primary:hover {
+  background-color: #fff;
+  color: #2e61a3;
+  border: 1px solid #07254b;
+}
+.overview {
+  margin-bottom: 30px;
+}
+
+.weather-temperature a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+.weather-temperature .active {
+  color: white;
+  cursor: default;
+}
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
+small {
+  font-size: 12px;
+  font-weight: 100;
+}
